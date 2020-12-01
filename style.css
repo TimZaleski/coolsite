@@ -23,12 +23,24 @@ header
   margin-top: 30px;
 }
 
+@media only screen and (max-width: 600px) {
+  #centerDiv {
+    width: auto;
+  }
+}
+
 #rightDiv
 {
 
   width: 30%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #rightDiv {
+    width: auto;
+  }
 }
 
 section
@@ -53,14 +65,10 @@ p, h2
   margin-right: 5%;
 }
 
-#imageBox
+img
 {
-  background-color: cornflowerblue;
-  color:white;
-  text-align: center;
-  padding: 30px;
+  justify-content: center;
 }
-
 
 footer
 {
