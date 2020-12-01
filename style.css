@@ -31,7 +31,7 @@ header
 
 #rightDiv
 {
-
+text-align: center;
   width: 30%;
   margin-left: auto;
   margin-right: auto;
@@ -54,7 +54,7 @@ section
 
 .justify
 {
-  text-align: justify;
+  text-align: justify !important;
 }
 
 p, h2
